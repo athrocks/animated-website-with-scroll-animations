@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#cursor {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: fixed;
+  background-color: #edbfff;
+  z-index: 9;
+  mix-blend-mode: difference;
+  transition: left 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out, bottom 0.2s ease-in-out;
+}
+
+.soundon {
+  border-radius: 8px;
+  position: fixed;
+  background-color: #edbfff;
+  z-index: 10;
+  mix-blend-mode: difference;
+  padding: 5px;
+  font-weight: 800;
+  transition: left 0.3s ease-in-out, top 0.3s ease-in-out, right 0.3s ease-in-out, bottom 0.3s ease-in-out;
+}
+
+.viewbtn {
+  border-radius: 8px;
+  position: fixed;
+  background-color: #edbfff;
+  z-index: 10;
+  mix-blend-mode: difference;
+  padding: 5px;
+  font-weight: 800;
+}
+
+#main {
+  background-color: #0f0d0d;
+  /* cursor: none; */
+}
+
+#page1 {
+  min-height: 100vh;
+  color: white;
+}
+
+#nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+#nav img {
+  height: 23px;
+  width: 35px;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#circle {
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#nav2 h4 {
+  font-size: 1vw;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+#nav2 h4:nth-child(1) {
+  text-decoration: underline;
+}
+
+#page1 > h1 {
+  font-size: 7.57vw;
+  text-align: center;
+  font-weight: 100;
+}
+
+#page1 > p {
+  width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  text-align: center;
+  margin-top: 2vw;
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+#eh1 {
+  margin-top: 10vw;
+}
+#eh2 {
+  margin-left: 16vw;
+}
+
+#vd1 {
+  width: 50%;
+  margin-top: 12vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+}
+
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: #fff; */
+  color: white;
+}
+
+.cont1 {
+  margin-left: 75px;
+  margin-top: 10vw;
+  width: calc(68% - calc(min(6vw, 115px)));
+}
+
+.cont1 h2 {
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cont1 span {
+  margin-top: 15px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.cont2 {
+  display: flex;
+  background-color: #fff;
+}
+
+.bcont {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+.im1 {
+  width: 70%;
+  background-image: url("./images/img1.webp");
+}
+
+.row {
+  width: 90%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.row h4 {
+  font-family: "Inter", sans-serif;
+}
+
+.btn {
+  border-radius: 15px;
+  padding: 5px;
+  font-size: large;
+  background-color: plum;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-bottom: 6vw;
+}
+
+#page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+}
+
+#page3 h1 {
+  min-height: 150;
+  font-size: 115px;
+  font-weight: 300;
+  width: 20%;
+  margin-left: 4vw;
+  margin-top: 5vw;
+}
+
+#video1 {
+  position: relative;
+  left: 50%;
+  top: -150px;
+  width: 700px;
+  /* height: 720px; */
+}
+
+.ph {
+  font-size: 25px;
+  font-family: "Inter";
+  font-weight: 800;
+  margin-top: 20px;
+}
+.pc {
+  font-family: "Inter";
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#image1 {
+  margin-left: 4vw;
+  position: relative;
+  top: -400px;
+}
+
+#img_1{
+  width: 480px;
+  height: 550px;
+  cursor: pointer;
+}
+
+#img_2{
+  width: 480px;
+  height: 550px;
+  cursor: pointer;
+}
+
+#image2 {
+  position: relative;
+  top: -480px;
+  left: 60%;
+}
+#video2 {
+  position: relative;
+  margin-top: -600px;
+  margin-left: 4vw;
+}
+
+#info {
+  position: relative;
+  left: 60%;
+  width: 30%;
+  top: -300px;
+}
+#info p {
+  font-size: larger;
+}
+.btn2 {
+  padding: 5px;
+  font-size: large;
+  background-color: plum;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#vd_1,#vd_2{cursor: pointer;}

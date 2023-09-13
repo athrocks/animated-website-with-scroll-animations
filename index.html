@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <button class="soundon" hidden>Sound On</button>
+    <button class="viewbtn" hidden>View</button>
+
+    <div id="main">
+      <div id="nav">
+        <img
+          src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
+          alt=""
+        />
+        <div id="nav2">
+          <h4>Home</h4>
+          <h4>Work</h4>
+          <h4>Services</h4>
+          <h4>Studio</h4>
+          <h4>Journal</h4>
+          <h4>Contact</h4>
+        </div>
+        <div id="nav3">
+          <div id="circle"></div>
+        </div>
+      </div>
+      <div id="page1">
+        <h1 id="eh1">A design studio made</h1>
+        <h1 id="eh2">to elevate your brand</h1>
+        <p id="p1">
+          We build brand identities, creative websites, and visual narratives
+          that showcase the full extent of your potential. Based in Washington
+          DC, working with clients world-wide.
+        </p>
+        <video
+          id="vd1"
+          autoplay
+          muted
+          loop
+          src="./videos/vd1.mp4"
+        ></video>
+        <hr />
+      </div>
+      <div id="page2">
+        <div class="cont1">
+          <h2>
+            <span>Capabilities</span>
+            &nbsp;At Duo Studio, we have a passion for crafting personalized
+            solutions, including:
+          </h2>
+        </div>
+        <div class="cont2">
+          <div class="bcont">
+            <div class="row" id="row1">
+              <h2>Branding</h2>
+              <h4>
+                Brand Identity, Brand Strategy, Logo Design, Messaging,
+                Positioning, Art Direction, Brand Guidelines
+              </h4>
+            </div>
+            <hr />
+            <div class="row" id="row2">
+              <h2>Websites</h2>
+              <h4>
+                Web Design, Web Development, UI/UX, Wireframes, Copywriting,
+                E-Commerce, SEO, CMS, Analytics/Tracking
+              </h4>
+            </div>
+            <hr />
+            <div class="row" id="row3">
+              <h2>Content</h2>
+              <h4>
+                Content Strategy, Graphic Design, Marketing Design Collateral,
+                Packaging, Print Design, Illustration, Motion Graphics
+              </h4>
+            </div>
+            <hr />
+          </div>
+          <div class="im1"></div>
+        </div>
+        <button class="btn">Learn More</button>
+        <hr />
+      </div>
+      <div id="page3">
+        <h1>Featured Work</h1>
+        <div id="video1">
+          <video
+            id="vd_1"
+            autoplay
+            loop
+            muted
+            src="./videos/vd2.mp4"
+          ></video>
+          <p class="ph">MadeGood</p>
+          <p class="pc">Brand Strategy, Website</p>
+        </div>
+        <div id="image1">
+          <img
+            id="img_1"
+            src="./images/img4.webp"
+            alt=""
+          />
+          <p class="ph">MGNY</p>
+          <p class="pc">
+            Brand Strategy,Website,Creative Direction,Illustration
+          </p>
+        </div>
+        <div id="image2">
+          <img
+            id="img_2"
+            src="./images/img5.webp"
+            alt=""
+          />
+          <p class="ph">Finturity</p>
+          <p class="pc">
+            Brand Strategy, Brand Identity, Website, Graphic Design
+          </p>
+        </div>
+        <div id="video2">
+          <video
+            id="vd_2"
+            autoplay
+            loop
+            muted
+            src="./videos/vd3.mp4"
+          ></video>
+          <p class="ph">Cruefilms</p>
+          <p class="pc">Brand Strategy, Website</p>
+          <div id="info">
+            <p>Browse our work and get inspired by the possibilities we can create together.</p>
+            <button class="btn2">See All More</button>
+          </div>
+          <br />
+          <br />
+          <br />
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
